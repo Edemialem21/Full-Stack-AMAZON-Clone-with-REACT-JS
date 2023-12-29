@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './pages/Header';
-import Home from './pages/Home';
-import Layout from "./pages/Layout";
-import Contact from "./pages/Contact";
+import Header from './componets/Header';
+import Home from './componets/Home';
+import Layout from "./componets/Layout";
+import Contact from "./componets/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
