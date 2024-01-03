@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './componets/Header';
 import Home from './componets/Home';
+import Contact from './componets/Contact'
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -12,9 +13,11 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />}>
                     </Route>
+                    <Route path="/contact   " element={<Contact />}>
+                    </Route>
                 </Routes>
             </Router>
-      <h1>Hello, it's Edemialem, let's build amazon</h1>
+     
         </div>
    
   );

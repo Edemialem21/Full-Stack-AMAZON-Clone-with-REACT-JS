@@ -58,7 +58,9 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
+        <h1>Hello, it's Edemialem, let's build amazon</h1>
       </div>
+     
     </div>
   )
 }
